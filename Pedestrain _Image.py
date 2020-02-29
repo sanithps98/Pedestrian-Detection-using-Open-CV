@@ -13,7 +13,7 @@ hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
 
-path = "ped4.jpeg"
+path = "image_name.jpeg"
 
 # loop over the image paths
 image = cv2.imread(path)
